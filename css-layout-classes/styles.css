@@ -11,17 +11,14 @@
 
 .column-one-third {
   width: 33.33%;
-  flex-basis: auto;
 }
 
 .column-one-fourth {
   width: 25%;
-  flex-basis: auto;
 }
 
 .column-two-third {
   width: 66.66%;
-  flex-basis: auto;
 }
 
 img {
