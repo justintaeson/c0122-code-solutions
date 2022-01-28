@@ -1,0 +1,96 @@
+/* semantic classes */
+
+.about-title {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(236 100 94);
+}
+
+.about-body {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: small;
+}
+
+.about-select {
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: smaller;
+  color: black;
+  background-color: rgb(243 243 243);
+  padding: 5px 0;
+}
+
+::placeholder {
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: small;
+  color: rgb(174 174 174);
+}
+
+.about-button {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(236 93 87);
+}
+
+/* utility classes */
+
+.container-middle {
+  width: 50%;
+  margin: auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.border-color {
+  border-color: rgb(216 217 217);
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-width {
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.padding-vertical {
+  padding: 10px 0;
+}
+
+.padding-button {
+  padding: 5px 20px;
+}
+
+.input-radius {
+  border-radius: 5px;
+}
+
+.float-right {
+  float: right;
+}
+
+.button-radius {
+  border-radius: 30px;
+}
