@@ -8,12 +8,13 @@ var orderHistory = [
       orderNumber: '114-3941689-8772232',
       deliveredDate: '2020-08-08'
     },
-    item: {
-      title: 'JavaScript for impatient programmers',
-      author: 'Rauschmayer, Dr. Axel',
-      returnWindowClose: '2020-09-07',
-      grossCost: 31.55
-    }
+    item: [
+      {
+        title: 'JavaScript for impatient programmers',
+        author: 'Rauschmayer, Dr. Axel',
+        returnWindowClose: '2020-09-07',
+        grossCost: 31.55
+      }]
   },
   // index 1
   {
@@ -24,12 +25,13 @@ var orderHistory = [
       orderNumber: '113-9984268-1280257',
       deliveredDate: '2020-07-20'
     },
-    item: {
-      title: 'The Timeless Way of Building',
-      author: 'Alexander, Christopher',
-      returnWindowClose: '2020-08-19',
-      grossCost: 41.33
-    }
+    item: [
+      {
+        title: 'The Timeless Way of Building',
+        author: 'Alexander, Christopher',
+        returnWindowClose: '2020-08-19',
+        grossCost: 41.33
+      }]
   },
   // index 2
   {
@@ -40,12 +42,13 @@ var orderHistory = [
       orderNumber: '114-2875557-9059409',
       deliveredDate: '2020-07-07'
     },
-    item: {
-      title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
-      author: null,
-      returnWindowClose: '2020-08-05',
-      grossCost: 15.98
-    }
+    item: [
+      {
+        title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
+        author: null,
+        returnWindowClose: '2020-08-05',
+        grossCost: 15.98
+      }]
   },
   // index 3
   {
@@ -56,12 +59,13 @@ var orderHistory = [
       orderNumber: '114-2875557-9059409',
       deliveredDate: '2020-07-07'
     },
-    item: {
-      title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
-      author: null,
-      returnWindowClose: '2020-08-05',
-      grossCost: 15.98
-    }
+    item: [
+      {
+        title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
+        author: null,
+        returnWindowClose: '2020-08-05',
+        grossCost: 15.98
+      }]
   },
   // index 4
   {
@@ -89,4 +93,5 @@ var orderHistory = [
   }
 ];
 
+console.log(orderHistory[1].item[0].title);
 console.log(orderHistory[4].item[1].title);
