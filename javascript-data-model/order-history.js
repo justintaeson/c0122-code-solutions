@@ -8,7 +8,7 @@ var orderHistory = [
       orderNumber: '114-3941689-8772232',
       deliveredDate: '2020-08-08'
     },
-    item1: {
+    item: {
       title: 'JavaScript for impatient programmers',
       author: 'Rauschmayer, Dr. Axel',
       returnWindowClose: '2020-09-07',
@@ -24,7 +24,7 @@ var orderHistory = [
       orderNumber: '113-9984268-1280257',
       deliveredDate: '2020-07-20'
     },
-    item1: {
+    item: {
       title: 'The Timeless Way of Building',
       author: 'Alexander, Christopher',
       returnWindowClose: '2020-08-19',
@@ -40,7 +40,7 @@ var orderHistory = [
       orderNumber: '114-2875557-9059409',
       deliveredDate: '2020-07-07'
     },
-    item1: {
+    item: {
       title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
       author: null,
       returnWindowClose: '2020-08-05',
@@ -56,7 +56,7 @@ var orderHistory = [
       orderNumber: '114-2875557-9059409',
       deliveredDate: '2020-07-07'
     },
-    item1: {
+    item: {
       title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
       author: null,
       returnWindowClose: '2020-08-05',
@@ -72,17 +72,21 @@ var orderHistory = [
       orderNumber: '114-2875557-9059409',
       deliveredDate: '2020-07-07'
     },
-    item1: {
-      title: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-      author: null,
-      returnWindowClose: '2020-08-04',
-      grossCost: 94.95
-    },
-    item2: {
-      title: 'The Art of Sql',
-      author: 'Faroult, Stephane',
-      returnWindowClose: '2020-08-04',
-      grossCost: 33.99
-    }
+    item: [
+      {
+        title: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
+        author: null,
+        returnWindowClose: '2020-08-04',
+        grossCost: 94.95
+      },
+      {
+        title: 'The Art of Sql',
+        author: 'Faroult, Stephane',
+        returnWindowClose: '2020-08-04',
+        grossCost: 33.99
+      }
+    ]
   }
 ];
+
+console.log(orderHistory[4].item[1].title);
