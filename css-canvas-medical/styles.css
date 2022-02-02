@@ -1,0 +1,248 @@
+/* nav bar */
+.navbar-text {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(208 208 208);
+  word-spacing: 10px;
+  font-size: 13px;
+  margin-right: 50px;
+}
+
+#navbar-line {
+  width: 1200px;
+  border-color: rgb(239 239 242);
+  border-style: solid;
+}
+
+#container {
+  max-width: 100%;
+  height: 1980px;
+}
+
+#hero-image {
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  display: block;
+  filter: brightness(80%);
+  filter: contrast(60%);
+}
+
+#hero-header {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  width: 400px;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 35px;
+}
+
+#hero-text {
+  position: absolute;
+  width: 500px;
+  top: 320px;
+  left: 300px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+#header-button {
+  background-color: rgb(41 68 100);
+  color: white;
+  position: absolute;
+  top: 540px;
+  left: 300px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-style: solid;
+  border-color: rgb(41 68 100);
+  border-radius: 5px;
+  font-size: large;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+}
+
+.column {
+  margin: auto;
+}
+
+p {
+  display: inline-flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 125px;
+  height: 50px;
+}
+
+.button {
+  background-color: rgb(41 68 100);
+  color: white;
+  top: 200px;
+  left: 230px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(41 68 100);
+  border-radius: 5px;
+}
+
+.rectangle {
+  background-color: rgb(250 250 250);
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+  left: 5px;
+}
+
+.location-header {
+  position: absolute;
+  left: 375px;
+  width: 400px;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgb(116 116 116);
+}
+
+.location-text {
+  position: absolute;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(116 116 116);
+  top: 100px;
+  left: 290px;
+  width: 520px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.locations {
+  width: 52%;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  color: rgb(116 116 116);
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.margin-top {
+  margin-top: 200px;
+}
+
+#ready-header {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(116 116 116);
+  font-size: 35px;
+  margin: 25px 0 10px;
+}
+
+#ready-text {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(116 116 116);
+}
+
+#ready-button {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-style: solid;
+  border-color: rgb(41 68 100);
+  border-radius: 5px;
+  background-color: rgb(41 68 100);
+  color: white;
+  font-size: large;
+}
+
+#dark-rectangle {
+  background-color: rgb(83 83 81);
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+  left: 5px;
+}
+
+.company-info {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  color: white;
+  position: absolute;
+  top: 110px;
+  right: 500px;
+}
+
+.product-info {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  color: white;
+  position: absolute;
+  top: 110px;
+  right: 200px;
+}
+
+#white-logo {
+  width: 140px;
+  height: 30px;
+  position: absolute;
+  top: 110px;
+  left: 80px;
+}
+
+.canvas-info {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  color: white;
+  font-size: small;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+.footer {
+  float: left;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  color: rgb(116 116 116);
+  margin: 50px 0 0 250px;
+}
