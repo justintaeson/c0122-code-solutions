@@ -31,6 +31,16 @@ img {
   height: 120px;
 }
 
+#button {
+  color: rgb(223 126 120);
+  background-color: white;
+  border-color: rgb(223 126 120);
+  border-style: solid;
+  padding: 10px 30px;
+  font-weight: bold;
+  margin: auto;
+}
+
 /* Semantic */
 .title {
   font-family: Karla, sans-serif;
