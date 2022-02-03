@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247 248 250);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.phone-image {
+  width: 250px;
+  height: auto;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: 0 100px;
+}
+
+h2,
+h3 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+p {
+  font-family: Barlow, sans-serif;
+  font-weight: 400px;
+}
