@@ -1,11 +1,11 @@
 /* exported filterOutStrings */
 
 function filterOutStrings(values) {
-  var numbersOnlyArray = [];
+  var notStringsArray = [];
   for (let i = 0; i < values.length; i++) {
-    if (typeof values[i] === 'number') {
-      numbersOnlyArray.push(values[i]);
+    if (typeof values[i] !== 'string') {
+      notStringsArray.push(values[i]);
     }
   }
-  return numbersOnlyArray;
+  return notStringsArray;
 }
