@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.column {
+.column-one-half {
   flex-basis: calc(100% / 2);
   margin: 25px;
 }
