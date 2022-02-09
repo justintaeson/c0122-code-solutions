@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-fifth {
+  height: 450px;
+  width: 300px;
+  padding: 0 15px;
+}
+
+.header {
+  font-size: 40px;
+}
+
+img {
+  height: 450px;
+  width: 300px;
+  object-fit: fill;
+}
+
+.font-style {
+  font-family: "DM Sans", sans-serif;
+}
+
+.size {
+  color: rgb(232 232 232);
+}
+
+.new-price {
+  background-color: rgb(255 242 232);
+}
+
+.old-price {
+  color: rgb(232 232 232);
+  text-decoration: line-through;
+}
