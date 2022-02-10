@@ -1,17 +1,17 @@
 var $background = document.querySelector('.main-background');
 var $dot = document.querySelector('.yellow-dot');
 
-var clickCount = 0;
+var isBulbOn = false;
 function handleClick(event) {
-  clickCount++;
-  if (clickCount % 2 !== 0) {
+  if (isBulbOn === false) {
     $dot.className = 'black-dot';
     $background.className = 'secondary-background';
-  } else {
+    isBulbOn = !isBulbOn;
+  } else if (isBulbOn === true) {
     $dot.className = 'yellow-dot';
     $background.className = 'main-background';
+    isBulbOn = !isBulbOn;
   }
-
 }
 
 $dot.addEventListener('click', handleClick);
