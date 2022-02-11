@@ -10,7 +10,7 @@
 function capitalizeWord(word) {
   var lowerCase = word.toLowerCase();
   if (lowerCase === 'javascript') {
-    return lowerCase.charAt(0).toUpperCase() + lowerCase.slice(1, 4) + lowerCase.charAt(4).toUpperCase() + lowerCase.slice(5, lowerCase.length);
+    return 'JavaScript';
   } else {
     return lowerCase.charAt(0).toUpperCase() + lowerCase.slice(1, word.length);
   }

@@ -14,7 +14,7 @@
 function ransomCase(string) {
   var ransomCaseArray = [];
   for (let i = 0; i < string.length; i++) {
-    if (i === 0 || i % 2 === 0) {
+    if (i % 2 === 0) {
       var lowerCaseLetter = string.charAt(i).toLowerCase();
       ransomCaseArray.push(lowerCaseLetter);
     } else {
