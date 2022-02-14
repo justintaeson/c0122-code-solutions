@@ -21,10 +21,9 @@ function takeRight(array, count) {
   } else if (count > array.length) {
     return array;
   } else {
-    for (let i = array.length; i > (array.length - count); i--) {
-      takeRightArray.push(array[i - 1]);
+    for (let i = (array.length - count); i < array.length; i++) {
+      takeRightArray.push(array[i]);
     }
   }
-  takeRightArray.reverse();
   return takeRightArray;
 }
