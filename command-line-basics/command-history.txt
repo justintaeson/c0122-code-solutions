@@ -1,0 +1,500 @@
+    4  git add css/styles.css
+    5  git commit -m "Checked that the entries list looks good on both mobile and desktop screens.
+    6  "
+    7  git push origin feature-2-view-their-entries
+    8  git add main.js
+    9  git add js/main.js
+   10  git commit -m "Checked that the entries list looks good on both mobile and desktop screens. #2"
+   11  git add js/main.js
+   12  git commit -m "Checked that the entries list looks good on both mobile and desktop screens. #2"
+   13  git add index.html
+   14  git add css/layout.css
+   15  git add css/styles.css
+   16  git commit -m "Checked that the entries list looks good on both mobile and desktop screens. #2"
+   17  git commit -m "Checked that the entries list looks good on both mobile and desktop screens. #2"
+   18  git add js/main.js
+   19  git commit -m "Checked that the entries list looks good on both mobile and desktop screens. #2"
+   20  git push origin feature-2-view-their-entries
+   21  git add index.html
+   22  git add js/main.js
+   23  git commit -m "Defined a function that takes a single journal entry object and returns a DOM tree that matches one of the example entries in the HTML. #2"
+   24  git commit -m "Defined a function that takes a single journal entry object and returns a DOM tree that matches one of the example entries in the HTML. #2"
+   25  git add js/main.js
+   26  git add index.html
+   27  git commit -m "Defined a function that takes a single journal entry object and returns a DOM tree that matches one of the example entries in the HTML + used a loop to create a DOM tree for each journal entry in the data model and append it to the page when the 'DOMContentLoaded' event is fired. #2"
+   28  git push origin feature-2-view-their-entries
+   29  git add index.html
+   30  git add main.js
+   31  git add js/main.js
+   32  git commit -m "Removed the example HTML entries once the user's entries are successfully being appended to the DOM on page load. #2"
+   33  git push origin feature-2-view-their-entries
+   34  git add index.html
+   35  git add styles.css
+   36  git add css/styles.css
+   37  git add css/layout.css
+   38  git add js/main.js
+   39  git add js/data.js
+   40  git commit -m "Added a navigation item to the navbar for Entries. #2"
+   41  git push origin feature-2-view-their-entries
+   42  git add index.html
+   43  git commit -m "Added an achor to the entries view that shows the entry form. #2"
+   44  git push origin feature-2-view-their-entries
+   45  git add css/layout.css
+   46  git add js/main.js
+   47  git add index.html
+   48  git commit -m "Ensured that submitting a new journal entry also creates a new DOM tree for it and adds it to the page. #2"
+   49  git push origin feature-2-view-their-entries
+   50  git add css/layout.css
+   51  git add css/styles.css
+   52  git index.html
+   53  git add index.html
+   54  git add js/main.js
+   55  git add js/data.js
+   56  git commit -m "Ensured that submitting a new journal entry automatically shows the 'entries' view without reloading the page. #2"
+   57  git push origin feature-2-view-their-entries
+   58  git add index.html
+   59  git add css/main.js
+   60  git add js/main.js
+   61  git add css/layout.css
+   62  git add css/styles.css
+   63  git commit -m "Ensured that refreshing the pages shows the same view as before refreshing.
+   64   #2"
+   65  git push origin feature-2-view-their-entries
+   66  git switch master
+   67  git pull origin master
+   68  git branch feature-3-edit-an-entry
+   69  git switch feature-3-edit-an-entry
+   70  git add js/main.js
+   71  git add css/layout.css
+   72  git add index.html
+   73  git commit -m "Updated entry rendering function to include an edit icon for each rendered entry. #3"
+   74  git push origin feature-3-edit-an-entry
+   75  git add js/main.j
+   76  git add js/main.js
+   77  git commit -m "Ensured that each rendered entry is given a data-entry-id attribute indicating which entry it is. #3"
+   78  git push origin feature-3-edit-an-entry
+   79  git add js/main.js
+   80  git commit -m "Listened for clicks on the parent element of all rendered entries. #3"
+   81  git push origin feature-3-edit-an-entry
+   82  git add js/main.js
+   83  git commit -m "Show the entry form if an edit icon was clicked. #3"
+   84  git add js/main.js
+   85  git commit -m "Show the entry form if an edit icon was clicked. #3"
+   86  git push origin feature-3-edit-an-entry
+   87  git add js/main.js
+   88  git commit -m "Find the matching entry object in the data model and assign it to the data model's editing property if an edit icon was clicked. #3"
+   89  git push origin feature-3-edit-an-entry
+   90  git add js/main.js
+   91  git commit -m "Pre-populate the entry form with the clicked entry's values from the object found in the data model. #3"
+   92  git push origin feature-3-edit-an-entry
+   93  git add js/main.js
+   94  git commit -m "Update the entry form's submit handler function to conditionally add a new entry object or update the existing one. #3"
+   95  git push origin feature-3-edit-an-entry
+   96  git switch master
+   97  git add index.html
+   98  git commit -m "Update the entry form's submit handler function to conditionally add a new entry object or update the existing one. #3"
+   99  git push origin feature-3-edit-an-entry
+  100  git switch master
+  101  clear
+  102  cd repos
+  103  pwd
+  104  cd repos
+  105  pwd
+  106  cd
+  107  cd repos
+  108  git clone git@github.com:SteveBehm/week-planner.git
+  109  cd week-planner
+  110  npm ci
+  111  clear
+  112  git pull origin master
+  113  git status
+  114  git add index.html
+  115  git add styles.css
+  116  git commit -m "Justin's 2nd time."
+  117  git commit --amend -m "Justin's 1st time."
+  118  git push origin master
+  119  git pull origin master
+  120  git add index.html
+  121  git add main.js
+  122  git add styles.css
+  123  git commit -m "Justin
+  124  's 2nd Time."
+  125  git push origin master
+  126  git pull origin master
+  127  git add index.html
+  128  git add main.js
+  129  git status
+  130  git commit -m "Justin's last time."
+  131  git -commit -m "Justin's last time."
+  132  git add main.js
+  133  git commit -m "Justin's last time."
+  134  git push origin master
+  135  cd
+  136  cd repos
+  137  cd code-journal
+  138  cd feature-3-edit-an-entry
+  139  git switch feature-3-edit-an-entry
+  140  git add index.html
+  141  git js/main.js
+  142  git add js/main.js
+  143  git add js/data.js
+  144  git add css/layout.css
+  145  git add commit -m "Update the entry form's submit handler function to conditionally add a new entry DOM tree or replace the existing one. #3"
+  146  git commit -m "Update the entry form's submit handler function to conditionally add a new entry DOM tree or replace the existing one. #3"
+  147  git push origin
+  148  git push origin master
+  149  git push origin master
+  150  git clear
+  151  cd repos
+  152  cd code-journal
+  153  git add js/data.js
+  154  git commit -m "Fix all errors. #3"
+  155  git push origin master
+  156  git switch master
+  157  cd
+  158  cd repos
+  159  cd c0122-code-solutions
+  160  git add javascript-custom-methods
+  161  git branch javascript-custom-methods
+  162  git branch --list
+  163  git switch javascript-custom-methods
+  164  git add javascript-custom-methods
+  165  git commit -m "Completed javascript-custom-methods exercise."
+  166  git push origin javascript-custom-methods
+  167  git switch master
+  168  git pull origin master
+  169  clear
+  170  git branch javascript-this
+  171  git switch javascript-this
+  172  git add javascript-this
+  173  git commit -m "Completed javascript-this exercise."
+  174  git push origin javascript-this
+  175  git switch master
+  176  cd
+  177  cd repos
+  178  cd code-journal
+  179  git pull origin master
+  180  git switch feature-3-edit-an-entry
+  181  git pull origin master
+  182  git add js/main.js
+  183  git commit -m "Updated main.js file based on Tim's feedback. #3"
+  184  git push origin feature-3-edit-an-entry
+  185  git switch master
+  186  cd
+  187  clear
+  188  cd repos
+  189  cd c0122-code-solutions
+  190  git branch javascript-prototypes
+  191  git switch javascript-prototypes
+  192  git add javascript-prototypes
+  193  git commit -m "Completed javascript-prototypes exercise."
+  194  git push origin javascript-prototypes
+  195  git switch master
+  196  git pull origin master
+  197  clear
+  198  cd
+  199  cd repos
+  200  cd code-journal
+  201  git pull origin master
+  202  git branch feature-4-delete-an-entry
+  203  git switch feature-4-delete-an-entry
+  204  git add index.html
+  205  git add css/styles.css
+  206  git add js/main.js
+  207  git commit -m "Add a click target for deleting an entry to the entry form that only appears if the user is editing an entry."
+  208  git push origin feature-4-delete-an-entry
+  209  git add index.html
+  210  git add js/main.js
+  211  git add css/styles.css
+  212  git commit -m "Show a confirmation modal when the user clicks the Delete Entry click target. #4"
+  213  git add js/main.js
+  214  git commit -m "Show a confirmation modal when the user clicks the Delete Entry click target. #4"
+  215  git push origin feature-4-delete-an-entry
+  216  git switch master
+  217  git add js/main.js
+  218  git add index.html
+  219  git add css/styles.css
+  220  git commit -m "Hide the modal if the user clicks Cancel. #4"
+  221  git push origin feature-4-delete-an-entry
+  222  git switch master
+  223  clear
+  224  cd
+  225  cd repos
+  226  cd c0122-code-solutions
+  227  git branch javascript-constructors
+  228  git switch javascript-constructors
+  229  git add javascript-constructors
+  230  git commit -m "Completed javascript-constructors exercise."
+  231  git push origin javascript-constructors
+  232  git switch master
+  233  git pull origin master
+  234  clear
+  235  cd
+  236  cd repos
+  237  cd code-journal
+  238  git switch feature-4-delete-an-entry
+  239  git switch master
+  240  git add index.html
+  241  git add js/main.js
+  242  git add css/styles.css
+  243  git add css/layout.css
+  244  git commit -m "Cleaning up code. #4"
+  245  git push origin feature-4-delete-an-entry
+  246  git switch master
+  247  cd
+  248  clear
+  249  cd repos
+  250  cd c0122-code-solutions
+  251  git branch javascript-bank
+  252  git switch javascript-bank
+  253  git add javascript-bank
+  254  git commit -m "Completed javascript-bank challenge."
+  255  git push origin javascript-bank
+  256  git switch master
+  257  git status
+  258  git switch object-manipulation-2
+  259  git switch master
+  260  clear
+  261  cd
+  262  cd repos
+  263  cd code-journal
+  264  git switch feature-4-delete-an-entry
+  265  git add index.html
+  266  git add css/styles.css
+  267  git add js/main.js
+  268  git commit -m "Cleaned and organized code + added delete feature."
+  269  git push origin feature-4-delete-an-entry
+  270  git switch master
+  271  clear
+  272  cd
+  273  cd repos
+  274  cd c0122-code-solutions
+  275  git branch javascript-timers
+  276  git switch javascript-timers
+  277  git add javascript-timers
+  278  git commit -m "Completed javascript-timers exercise."
+  279  git push origin javascript-timers
+  280  git switch master
+  281  cd
+  282  clear
+  283  cd repos
+  284  cd code-journal
+  285  git switch feature-4-delete-an-entry
+  286  git add index.html
+  287  git add css/styles.css
+  288  git add css/layout.css
+  289  git add js/main.js
+  290  git commit -m "Cleaned up code and made sure all functionality was working correctly."
+  291  git add css/styles.css
+  292  git commit -m "Organized code + confirmed all functionality is working properly. #4"
+  293  git push origin feature-4-delete-an-entry
+  294  git switch master
+  295  cd
+  296  clear
+  297  curl -sS https://lfz-static.s3-us-west-1.amazonaws.com/dev-environment/mac-installer.bash | bash
+  298  dev-env
+  299  dev-env
+  300  cd repos
+  301  cd code-journal
+  302  git switch feature-4-delete-an-entry
+  303  clear
+  304  cd
+  305  clear
+  306  cd repos
+  307  cd code-journal
+  308  git add js/main.js
+  309  git commit -m "Made sure the entry stays deleted when the page is refreshed. #4"
+  310  git push origin feature-4-delete-an-entry
+  311  git switch master
+  312  git pull origin master
+  313  clear
+  314  cd
+  315  clear
+  316  cd repos
+  317  cd c0122-code-solutions
+  318  git pull origin master
+  319  clear
+  320  git switch object-manipulation-2
+  321  git switch master
+  322  cd
+  323  cd repos
+  324  git clone git@github.com:justintaeson/driving-game.git
+  325  cd repos driving-game
+  326  cd driving-game
+  327  npm ci#
+  328  npm ci #
+  329  clear
+  330  pull origin master
+  331  git pull origin master
+  332  clear
+  333  git branch feature-1-see-car
+  334  git switch branch feature-1-see-car
+  335  git switch feature-1-see-car
+  336  git add index.html
+  337  git add css/styles.css
+  338  git add css/layout.css
+  339  git commit -m "Created HTML skeleton. #1"
+  340  git push origin feature-1-see-car
+  341  git add css/styles.css
+  342  git commit -m "Styled the background to be green. #1"
+  343  git push origin feature-1-see-car
+  344  clear
+  345  git add css/styles.css
+  346  git commit -m "Created the image of the car. #1"
+  347  git push origin feature-1-see-car
+  348  clear
+  349  git add css/styles.css
+  350  git commit -m "Updated background to fill the whole screen. #1"
+  351  git push origin feature-1-see-car
+  352  clear
+  353  git switch master
+  354  git branch feature-2-turn-car
+  355  git switch feature-2-turn-car
+  356  git pull origin master
+  357  clear
+  358  git switch master
+  359  git add index.html
+  360  git add main.js
+  361  git css/styles.css
+  362  git commit -m "Functionality of turning in progress. #3"
+  363  git push origin feature-2-turn-car
+  364  clear
+  365  git switch master
+  366  git add css/styles.css
+  367  git commit -m "Saved css/styles.css. #3"
+  368  git push origin feature-2-turn-car
+  369  git switch master
+  370  clear
+  371  cd
+  372  cd repos
+  373  cd c0122-code-solutions
+  374  git switch object-manipulation-2
+  375  clear
+  376  git add object-manipulation-2
+  377  git commit -m "Completed object-manipulation-2 exercise."
+  378  git add object-manipulation-2
+  379  git commit -m "Completed object-manipulation-2 exercise."
+  380  git push origin object-manipulation-2
+  381  git switch master
+  382  clear
+  383  dev-env
+  384  curl -X GET -H "Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAJiXZgEAAAAAer5hvlF1o4m2WBGHaZcwo4HAJwo%3D2vJ41woBXdUOPLvyIGufNsf1Tx91qNjObCLoTYYpzZu2s7MjWR""https://api.twitter.com/2/tweets/20"
+  385  curl -X GET -H "Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAJiXZgEAAAAAer5hvlF1o4m2WBGHaZcwo4HAJwo%3D2vJ41woBXdUOPLvyIGufNsf1Tx91qNjObCLoTYYpzZu2s7MjWR" "https://api.twitter.com/2/tweets/20"
+  386  clear
+  387  http https://bible-api.com/BOOK+CHAPTER:VERSE
+  388  cd repos
+  389  cd c0122-code-solutions
+  390  clear
+  391  cd
+  392  http https://bible-api.com/John+3+16
+  393  http https://bible-api.com
+  394  dev-env
+  395  cd repos
+  396  cd c0122-code-solutions
+  397  cd command-line-basics
+  398  man cat
+  399  man man
+  400  man cat
+  401  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  402  clear
+  403  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  404  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  405  pwd
+  406  man cat
+  407  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  408  cat laziness.txt
+  409  cat laziness.txt
+  410  git switch master
+  411  clear
+  412  git pull origin master
+  413  git pull origin master
+  414  clear
+  415  cd command-line-basics
+  416  pwd
+  417  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  418  cat
+  419  cd repos
+  420  cd-c0122-code-solutions
+  421  cd c0122-code-solutions
+  422  cd command-line-basics
+  423  cd
+  424  cd c0122-code-solutions
+  425  cd repos
+  426  cd c0122-code-solutions
+  427  git switch command-line-basics
+  428  cd command-line-basics
+  429  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  430  cat three-virtues.txt
+  431  man ls
+  432  man ls
+  433  ls
+  434  ls -a
+  435  ls -F
+  436  ls -aF lfz-staff
+  437  ls -aF lfz-staff > lfz-staff/contents.txt
+  438  cat lfz-staff/contents.txt
+  439  man pwd
+  440  pwd
+  441  pwd > i-was-here.txt
+  442  ls /repos/c0122-code-solutions/command-line-basics
+  443  ls command-line-basics
+  444  pwd
+  445  ls /Users/justinson/repos/c0122-code-solutions/command-line-basics
+  446  cat i-was-here.txt
+  447  man echo
+  448  echo 'Hello, World!' > hello.txt
+  449  ls /Users/justinson/repos/c0122-code-solutions/command-line-basics
+  450  cat hello.txt
+  451  man touch
+  452  touch tag-youre-it.txt
+  453  touch boo.txt > snoot/
+  454  ls
+  455  ls /snoot
+  456  ls snoot
+  457  ls snoot/
+  458  touch boop.txt
+  459  ls
+  460  touch boop.txt > snoop/
+  461  touch boop.txt > snoot/
+  462  cat boot.txt > snoot/
+  463  touch snoot/boot.txt
+  464  ls snoot/
+  465  ls
+  466  rm /repos/c0122-code-solutions/command-line-basics/boop.txt
+  467  ls
+  468  pwd
+  469  rm /Users/justinson/repos/c0122-code-solutions/command-line-basics/boop.txt
+  470  ls
+  471  man mkdir
+  472  mkdir parent
+  473  ls
+  474  mkdir -p parent/child/grandchild
+  475  touch parent/child/grandchild/.gitkeep
+  476  ls -a
+  477  ls -a parent
+  478  ls parent/child/grandchild
+  479  ls -a parent/child/grandchild
+  480  man mv
+  481  man mv
+  482  mv pokiemans pokemon
+  483  ls
+  484  man mv
+  485  man rm
+  486  rm lol.txt
+  487  ls
+  488  rm -r kill-me/
+  489  ls
+  490  man rm
+  491  man cp
+  492  man cp
+  493  cp and-then.txt no-and-then.txt
+  494  ls
+  495  man cp
+  496  cat and-then.txt
+  497  cat no-and-then.txt
+  498  man history
+  499  history
+  500  cd repos
+  501  cd c0122-code-solutions
+  502  cd command-line-basics
+  503  history > command-history.txt
