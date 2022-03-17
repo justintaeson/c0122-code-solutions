@@ -31,7 +31,7 @@ function createNote() {
   }
   var note = noteArray.join(' ');
   data.notes[data.nextId] = note;
-  data.nextId = Object.keys(data.notes).length + 1;
+  data.nextId++;
   const jsonNote = JSON.stringify(data, null, 2);
   fs.writeFile('data.json', jsonNote, 'utf-8', err => {
     if (err) throw err;
@@ -41,7 +41,6 @@ function createNote() {
 function deleteNote() {
   var argument2 = process.argv[3];
   delete data.notes[argument2];
-  data.nextId = Object.keys(data.notes).length + 1;
   const jsonNote = JSON.stringify(data, null, 2);
   fs.writeFile('data.json', jsonNote, 'utf-8', err => {
     if (err) throw err;
