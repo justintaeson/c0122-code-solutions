@@ -22,8 +22,11 @@ const grades = {
 };
 
 app.get('/api/grades', (req, res) => {
-  var resJSON = res.json(grades);
-  res.send(resJSON);
+  var gradesArray = [];
+  for (const property in grades) {
+    gradesArray.push(grades[property]);
+  }
+  res.json(gradesArray);
 });
 
 app.listen(3000, () => {
