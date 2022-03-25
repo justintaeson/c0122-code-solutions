@@ -68,7 +68,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
   const score = parseInt(req.body.score);
   const gradeId = parseInt(req.params.gradeId);
   const params = [name, course, score, gradeId];
-  if (gradeId === undefined || gradeId <= 0) {
+  if (isNaN(gradeId) || gradeId <= 0) {
     res.status(400).json({
       error: 'gradeId has to be a positive INTEGER.'
     });
@@ -116,7 +116,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
 app.delete('/api/grades/:gradeId', (req, res) => {
   const gradeId = parseInt(req.params.gradeId);
   const params = [gradeId];
-  if (gradeId === undefined || gradeId <= 0) {
+  if (isNaN(gradeId) || gradeId <= 0) {
     res.status(400).json({
       error: 'gradeId has to be a positive INTEGER.'
     });
