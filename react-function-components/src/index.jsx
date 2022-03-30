@@ -5,6 +5,8 @@ function CustomButton() {
   return <button>Click Me!</button>;
 }
 
-const element = CustomButton();
 const container = document.querySelector('#root');
-ReactDOM.render(element, container);
+
+ReactDOM.render(
+  <CustomButton />,
+  container);
