@@ -18,7 +18,6 @@
   background-color: yellow;
   border-radius: 50%;
   position: absolute;
-  left: 0;
   transition: transform;
 }
 
@@ -30,4 +29,12 @@
 
 .move {
   transform: translate(2.5rem);
+}
+
+.display-flex {
+  display: flex;
+}
+
+.position-right {
+  right: 0;
 }
