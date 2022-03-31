@@ -1,0 +1,32 @@
+.box {
+  box-shadow: 2px 2px black;
+  padding: 0.5rem 1rem;
+  border: black solid;
+}
+
+.three-clicks {
+  background-color: rgb(53 28 117);
+  color: white;
+}
+
+.six-clicks {
+  background-color: rgb(103 78 167);
+  color: white;
+}
+
+.nine-clicks {
+  background-color: rgb(224 102 102);
+  color: white;
+}
+
+.twelve-clicks {
+  background-color: rgb(246 178 107);
+}
+
+.fifteen-clicks {
+  background-color: rgb(255 252 0);
+}
+
+.eighteen-clicks {
+  background-color: white;
+}
