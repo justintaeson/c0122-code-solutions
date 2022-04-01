@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#toggle-container {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: lightgray;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.toggle-slider {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform;
+}
+
+#label {
+  padding-left: 1rem;
+  font-size: 20px;
+  margin: auto;
+}
+
+.move {
+  transform: translate(2.5rem);
+}
+
+.display-flex {
+  display: flex;
+}
+
+.position-right {
+  right: 0;
+}
