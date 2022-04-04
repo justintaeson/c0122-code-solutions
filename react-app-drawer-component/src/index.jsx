@@ -4,5 +4,5 @@ import AppDrawer from './app-drawer';
 
 ReactDOM.render(
   <AppDrawer/>,
-  document.querySelector('#root')
+  document.querySelector('body')
 );
