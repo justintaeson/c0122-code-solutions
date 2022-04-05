@@ -49,7 +49,7 @@ app.post('/api/auth/sign-up', (req, res, next) => {
       return db.query(sql, [username, hashedPassword]);
     })
     .then(result => {
-      const userData = result.rows;
+      const [userData] = result.rows;
       res.status(201).json(userData);
     })
     .catch(err => next(err));
