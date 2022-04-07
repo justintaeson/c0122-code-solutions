@@ -1,0 +1,23 @@
+1. USERS CAN SIGN UP
+- users can sign up by clicking on the Sign Up button which will trigger a hashchange event and change the state
+- the state change will cause the page to re-render and show the sign up page
+- once the user inputs a username and password to register, they'll click the Register button
+- clicking the register button will have the client send a post request to the server
+- if the username and pw are valid, it'll hash the password and send the login info to the database
+- the server will respond to the client with a message to let them know the request was successful or not
+
+2. USERS CAN LOGIN
+- users will login and click on the sign in button
+- the client will send a post request to the server
+- as long as the username and pw are valid, the server will send a SQL query to find the login id and pw
+- verify to see if the hashed pw in the data bases matches with the login pw
+- the server will then respond with a token and user info
+- this will cause a hashchange again which will re-render the page and because we're logged in, it'll show a Rick Roll gif
+
+3. USERS CAN STAY SIGNED IN
+- when the user refreshes the page, once the page renders, the app will check the token in localStorage
+- if it's valid, it'll reset the state so that users will be signed in
+
+4. USER CAN SIGN OUT
+- when the user signs out, the app will remove the token
+- the state will be set with users property to null
