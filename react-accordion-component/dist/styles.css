@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.topic-header {
+  border: 2px solid black;
+  background-color: rgb(221 221 221);
+  margin: 1px;
+  padding: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.details {
+  border: 2px solid black;
+  margin: 1px;
+  padding: 5px;
+  width: 50%;
+}
