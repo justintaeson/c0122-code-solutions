@@ -4,11 +4,7 @@ let currentIndex = 0;
 const $leftArrow = document.querySelector('#left-arrow');
 const $rightArrow = document.querySelector('#right-arrow');
 const $img = document.querySelector('#image');
-const $firstCircle = document.querySelector('#first-circle');
-const $secondCircle = document.querySelector('#second-circle');
-const $thirdCircle = document.querySelector('#third-circle');
-const $fourthCircle = document.querySelector('#fourth-circle');
-const $fifthCircle = document.querySelector('#fifth-circle');
+const $circle = document.querySelectorAll('.circle');
 
 $leftArrow.addEventListener('click', event => {
   if (currentIndex === 0) {
@@ -33,35 +29,22 @@ $rightArrow.addEventListener('click', event => {
 });
 
 function updateCircle() {
-  if (currentIndex === 0) {
-    $firstCircle.className = 'fa-solid fa-circle circle';
-    $secondCircle.className = 'fa-regular fa-circle circle';
-    $thirdCircle.className = 'fa-regular fa-circle circle';
-    $fourthCircle.className = 'fa-regular fa-circle circle';
-    $fifthCircle.className = 'fa-regular fa-circle circle';
-  } else if (currentIndex === 1) {
-    $firstCircle.className = 'fa-regular fa-circle circle';
-    $secondCircle.className = 'fa-solid fa-circle circle';
-    $thirdCircle.className = 'fa-regular fa-circle circle';
-    $fourthCircle.className = 'fa-regular fa-circle circle';
-    $fifthCircle.className = 'fa-regular fa-circle circle';
-  } else if (currentIndex === 2) {
-    $firstCircle.className = 'fa-regular fa-circle circle';
-    $secondCircle.className = 'fa-regular fa-circle circle';
-    $thirdCircle.className = 'fa-solid fa-circle circle';
-    $fourthCircle.className = 'fa-regular fa-circle circle';
-    $fifthCircle.className = 'fa-regular fa-circle circle';
-  } else if (currentIndex === 3) {
-    $firstCircle.className = 'fa-regular fa-circle circle';
-    $secondCircle.className = 'fa-regular fa-circle circle';
-    $thirdCircle.className = 'fa-regular fa-circle circle';
-    $fourthCircle.className = 'fa-solid fa-circle circle';
-    $fifthCircle.className = 'fa-regular fa-circle circle';
-  } else {
-    $firstCircle.className = 'fa-regular fa-circle circle';
-    $secondCircle.className = 'fa-regular fa-circle circle';
-    $thirdCircle.className = 'fa-regular fa-circle circle';
-    $fourthCircle.className = 'fa-regular fa-circle circle';
-    $fifthCircle.className = 'fa-solid fa-circle circle';
+  for (let i = 0; i < $circle.length; i++) {
+    $circle[i].className = 'fa-regular fa-circle circle';
+    if (i === currentIndex) {
+      $circle[i].className = 'fa-solid fa-circle circle';
+    }
   }
 }
+
+setInterval(() => {
+  if (currentIndex === 4) {
+    currentIndex = 0;
+    $img.setAttribute('src', imagesArray[currentIndex]);
+    updateCircle();
+  } else {
+    currentIndex++;
+    $img.setAttribute('src', imagesArray[currentIndex]);
+    updateCircle();
+  }
+}, 3000);
