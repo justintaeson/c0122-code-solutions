@@ -48,3 +48,15 @@ setInterval(() => {
     updateCircle();
   }
 }, 3000);
+
+document.addEventListener('click', event => {
+  if (event.target.className === 'fa-regular fa-circle circle') {
+    for (let i = 0; i < $circle.length; i++) {
+      if ($circle[i].id === event.target.id) {
+        currentIndex = i;
+        $img.setAttribute('src', imagesArray[currentIndex]);
+        updateCircle();
+      }
+    }
+  }
+});

@@ -34,7 +34,8 @@ body {
   width: 10%;
 }
 
-.fa-solid {
+.fa-solid,
+.fa-regular {
   font-size: 3rem;
   cursor: pointer;
 }
