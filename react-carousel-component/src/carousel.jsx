@@ -25,7 +25,7 @@ export default class Carousel extends React.Component {
       }
     }
     if (event.target.className === 'fa-regular fa-circle circle') {
-      this.setState({ currentIndex: event.target.id });
+      this.setState({ currentIndex: parseInt(event.target.id) });
     }
   }
 
