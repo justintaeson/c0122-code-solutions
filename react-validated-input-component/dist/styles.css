@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+input {
+  width: 20%;
+  height: 1.3rem;
+}
+
+i {
+  width: fit-content;
+  padding-left: 1rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  width: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
