@@ -8,7 +8,7 @@ const $circle = document.querySelectorAll('.circle');
 
 $leftArrow.addEventListener('click', event => {
   if (currentIndex === 0) {
-    currentIndex = 4;
+    currentIndex = imagesArray.length - 1;
     $img.setAttribute('src', imagesArray[currentIndex]);
   } else {
     currentIndex--;
@@ -18,7 +18,7 @@ $leftArrow.addEventListener('click', event => {
 });
 
 $rightArrow.addEventListener('click', event => {
-  if (currentIndex === 4) {
+  if (currentIndex === imagesArray.length - 1) {
     currentIndex = 0;
     $img.setAttribute('src', imagesArray[currentIndex]);
   } else {
@@ -38,7 +38,7 @@ function updateCircle() {
 }
 
 setInterval(() => {
-  if (currentIndex === 4) {
+  if (currentIndex === imagesArray.length - 1) {
     currentIndex = 0;
     $img.setAttribute('src', imagesArray[currentIndex]);
     updateCircle();
