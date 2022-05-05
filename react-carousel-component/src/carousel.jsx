@@ -12,13 +12,13 @@ export default class Carousel extends React.Component {
   handleClick(event) {
     if (event.target.id === 'left-arrow') {
       if (this.state.currentIndex === 0) {
-        this.setState({ currentIndex: 4 });
+        this.setState({ currentIndex: this.props.data.length - 1 });
       } else {
         this.setState({ currentIndex: this.state.currentIndex - 1 });
       }
     }
     if (event.target.id === 'right-arrow') {
-      if (this.state.currentIndex === 4) {
+      if (this.state.currentIndex === this.props.data.length - 1) {
         this.setState({ currentIndex: 0 });
       } else {
         this.setState({ currentIndex: this.state.currentIndex + 1 });
@@ -31,7 +31,7 @@ export default class Carousel extends React.Component {
 
   componentDidMount() {
     setInterval(() => {
-      if (this.state.currentIndex === 4) {
+      if (this.state.currentIndex === this.props.data.length - 1) {
         this.setState({ currentIndex: 0 });
       } else {
         this.setState({ currentIndex: this.state.currentIndex + 1 });
